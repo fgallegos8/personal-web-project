@@ -7,7 +7,8 @@
     <h1>Francisco's Personal Web Page</h1>
 <body>
 <img src="James.jpg" alt="picture of James" class="center"/>
-<div class="center">
+    <div class="center">
+    </div>
     <ul>
         <li>Name: James Smith</li>
         <li>Age: 37</li>
