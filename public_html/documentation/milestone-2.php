@@ -21,7 +21,7 @@
             </ul>
         <h2>Section 4</h2>
             <ul>
-                <li>Here contact information will be provided.it </li>
+                <li>Here contact information will be provided. </li>
             </ul>
 
     </body>
