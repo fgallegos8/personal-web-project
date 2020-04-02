@@ -13,7 +13,8 @@
             </ul>
         <h2>Section 2</h2>
             <ul>
-                <li>In this section a picture of a jet-pack wil be shown with some specs surrounding it.</li>
+                <li>In this section a picture of a jet-pack wil be shown with some specs surrounding it and possibly
+                    a color picker for the blank jet pack image.</li>
             </ul>
         <h2>Section 3</h2>
             <ul>
@@ -21,8 +22,13 @@
             </ul>
         <h2>Section 4</h2>
             <ul>
-                <li>Here contact information will be provided. </li>
+                <li>Here contact information will be provided and a captcha. </li>
             </ul>
+        <img src="Screenshot (32).png" alt="picture of web page"
+             class="center">
+        <img src="Screenshot (33).png" alt="picture of mobile"
+        class="center">
+
 
     </body>
 </html>
