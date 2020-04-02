@@ -24,11 +24,12 @@
             <ul>
                 <li>Here contact information will be provided and a captcha. </li>
             </ul>
-        <img src="Screenshot (32).png" alt="picture of web page"
+        <img src="Screenshot (34).png" alt="picture of mobile"
              class="center">
-        <img src="Screenshot (33).png" alt="picture of mobile"
+        <div class="center"></div>
+        <img src="Screenshot (33).png" alt="picture of website"
         class="center">
-
-
+        <div class="center"></div>
     </body>
+
 </html>
