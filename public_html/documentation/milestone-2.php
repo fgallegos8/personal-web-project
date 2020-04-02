@@ -4,7 +4,6 @@
     <meta charset="UTF-8"/>
     <title>Francisco's Personal Web Project</title>
     </head>
-    <h1>Francisco's Personal Web Project</h1>
     <body>
         <h2>Section 1</h2>
             <ul>
