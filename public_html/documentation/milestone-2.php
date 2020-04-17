@@ -23,10 +23,10 @@
             <ul>
                 <li>Here contact information will be provided and a captcha. </li>
             </ul>
-        <img src="Mobile.png" alt="picture of mobile" class="center">
+        <img src="Images/Mobile.png" alt="picture of mobile" class="center">
         <div class="center">
         </div>
-        <img src="Website.png" alt="picture of website" class="center">
+        <img src="Images/Website.png" alt="picture of website" class="center">
         <div class="center">
         </div>
     </body>
