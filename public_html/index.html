@@ -113,35 +113,41 @@
 </div>
 
 <!--Contact Form-->
-<form id="my-contact-form" action="../php/mailer.php" method="post">
-    <div>
-            <div class="col-sm-6 col-md-5 text-center">
-                <div class="card card-body">
-                    <div class="form-group">
-                        <h4 class="card-title">Contact Form</h4>
-                        <input type="text" class="form-control form-control-lg"
-                        id="name" name="name" placeholder="Name">
-                    </div>
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
 
-                    <div class="form-group">
-                        <input type="email" class="form-control form-control-lg"
-                               id="email" name="email" placeholder="Email">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control form-control-lg"
-                               id="message" placeholder="Message" style="height: 200px">
-                    </div>
-
-                </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="name">Name</span>
             </div>
-            <!-- reCAPTCHA -->
-            <div class="g-recaptcha" data-sitekey="6LeHBOwUAAAAACCWxo95n6-HY0qbhkySx-OPkGN1"></div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
 
-            <button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-            <button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="email">Email</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="message">Message</span>
+            </div>
+            <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
     </div>
-</form>
+</div>
+
+
+
+ <div class="g-recaptcha" data-sitekey="6LeHBOwUAAAAACCWxo95n6-HY0qbhkySx-OPkGN1"></div>
+
+                <button class="btn btn-success" type="submit"> Send</button>
+                <button class="btn btn-warning" type="reset">Reset</button>
+            </form>
+    </div>
+</div>
 
 <!--empty area for form error/success output-->
 <div class="row">
