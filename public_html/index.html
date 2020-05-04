@@ -33,14 +33,14 @@
 <body>
 <!--Navbar-->
 <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">JetPacks</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="#Jet Pack Models">Jet Pack Models</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#Contact">Contact</a>
@@ -96,96 +96,110 @@
         </div>
     </div>
 </div>
-<!--Description of Customizable Process -->
-<div class="card-group">
-    <div class="card">
-        <img src="images/JetpackJB-10.jpg" height= "590" class="card-img-top" alt="jet-pack">
-        <div class="p-3 flex-fill mb-2 bg-dark">
-            <div class="p-3 mb-2 bg-dark text-white">
-                <div class="card-body">
-                    <h5 class="card-title">The JB-10 JetPack</h5>
-                    <ul>
-                        <li>Weight: 83 lbs</li>
-                        <li>Max Speed: 120 mph</li>
-                        <li>Fuel: Kerosene/Diesel</li>
-                        <li>Operating Ceiling: 15,000 ft</li>
-                    </ul>
-                    <p class="card-text">
+<!--Description of different types of Jet Packs -->
+<section id="Jet Pack Models">
+    <div class="card-group">
+        <div class="card">
+            <img src="images/JetpackJB-10.jpg" height= "590" class="card-img-top" alt="jet-pack">
+            <div class="p-3 flex-fill mb-2 bg-dark">
+                <div class="p-3 mb-2 bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">The JB-10 JetPack</h5>
+                        <ul>
+                            <li>Weight: 83 lbs</li>
+                            <li>Max Speed: 120 mph</li>
+                            <li>Fuel: Kerosene/Diesel</li>
+                            <li>Operating Ceiling: 15,000 ft</li>
+                        </ul>
+                        <p class="card-text">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/JetpackJB11.jpg" height= "590" class="card-img-top" alt="jet-pack2">
+            <div class="p-3 flex-fill mb-2 bg-dark">
+                <div class="p-3 mb-2 bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">The JB11 JetPack</h5>
+                        <ul>
+                            <li>Weight: 115 lbs</li>
+                            <li>Max Speed: 120 mph</li>
+                            <li>Fuel: Kerosene/Diesel</li>
+                            <li>Operating Ceiling: 15,000 ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/B.jpg" height= "590" class="card-img-top" alt="jet-pack3">
+            <div class="p-3 flex-fill mb-2 bg-dark">
+                <div class="p-3 mb-2 bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Boba Fett's JetPack</h5>
+                        <ul>
+                            <li>Weight: 66 1/8 lbs</li>
+                            <li>Max Speed: 90 1/8 mph</li>
+                            <li>Fuel Type: </li>
+                            <li>Operating Ceiling: 229 2/3 ft</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <img src="images/JetpackJB11.jpg" height= "590" class="card-img-top" alt="jet-pack2">
-        <div class="p-3 flex-fill mb-2 bg-dark">
-            <div class="p-3 mb-2 bg-dark text-white">
-                <div class="card-body">
-                    <h5 class="card-title">The JB11 JetPack</h5>
-                    <ul>
-                        <li>Weight: 115 lbs</li>
-                        <li>Max Speed: 120 mph</li>
-                        <li>Fuel: Kerosene/Diesel</li>
-                        <li>Operating Ceiling: 15,000 ft</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img src="images/B.jpg" height= "590" class="card-img-top" alt="jet-pack3">
-        <div class="p-3 flex-fill mb-2 bg-dark">
-            <div class="p-3 mb-2 bg-dark text-white">
-                <div class="card-body">
-                    <h5 class="card-title">Boba Fett's JetPack</h5>
-                    <ul>
-                        <li>Weight: 66 1/8 lbs</li>
-                        <li>Max Speed: 90 1/8 mph</li>
-                        <li>Fuel Type: </li>
-                        <li>Operating Ceiling: 229 2/3 ft</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+</section>
 <!--Contact Form-->
-<div class="card" style="width: 25rem;">
-    <div class="card-body">
+<div class="container py-5">
+    <section id="Contact" class="row ">
 
-        <h3 id="Contact">Contact</h3>
-
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="name">Name</span>
+        <div class="container">
+            <div class="row">
+                <div id="envelope" class="col d-flex py-2"><i class="fas fa-envelope fa-3x"></i>
+                    <h3 class="align-self-center px-2" style="color: white">Contact</h3>
+                </div>
             </div>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-        </div>
 
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="email">Email</span>
-            </div>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-        </div>
+            <form>
 
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="message">Message</span>
-            </div>
-            <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
-        </div>
-    </div>
-</div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="Name">Name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                </div>
 
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="Email">Email</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                </div>
 
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="Subject">Subject</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Subject" aria-label="Subject" aria-describedby="basic-addon1">
+                </div>
 
- <div class="g-recaptcha" data-sitekey="6LeHBOwUAAAAACCWxo95n6-HY0qbhkySx-OPkGN1"></div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="height: 200px">Message</span>
+                    </div>
+                    <textarea class="form-control" aria-label="Message"></textarea>
+                </div>
+
+                <div class="g-recaptcha" data-sitekey="6LeHBOwUAAAAACCWxo95n6-HY0qbhkySx-OPkGN1"></div>
 
                 <button class="btn btn-success" type="submit"> Send</button>
                 <button class="btn btn-warning" type="reset">Reset</button>
+
             </form>
-    </div>
+
+        </div>
+    </section>
 </div>
 
 <!--empty area for form error/success output-->
