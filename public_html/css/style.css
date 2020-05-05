@@ -20,7 +20,9 @@ body {
     text-align: center;
 }
 
-#User\ Info {
+#Text {
+    font-style: oblique;
+    font-size: medium;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
