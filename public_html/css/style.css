@@ -1,3 +1,29 @@
 body {
     background: url("../images/dark-background-1.png");
 }
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 180px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -180px;
+    height: 180px;
+    width: 100%;
+    background-color: #343A40;
+    color: white;
+    text-align: center;
+}
+
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
