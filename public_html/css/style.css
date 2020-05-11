@@ -5,13 +5,29 @@ body {
     min-height: 100%;
 }
 
+#nav-title {
+    color: cornflowerblue;
+    font-size: xx-large;
+}
+
 #main {
     overflow: auto;
     padding-bottom: 180px;
 }
 
+#Text {
+    font-style: normal;
+    font-size: large;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#Jet\ Pack\ Models {
+    background-color: #343A40;
+}
+
 #contact-form-section {
-    background-color: darkgrey;
+    background-color: darkslategray;
 }
 
 #footer {
@@ -24,11 +40,8 @@ body {
     text-align: center;
 }
 
-#Text {
-    text-align: justify-all;
-    font-size: medium;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+#contact-title {
+    color: white;
 }
 
 body:before {
